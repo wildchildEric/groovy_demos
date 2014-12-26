@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debaf59d-8d5d-4d55-bf93-3288e43a4c9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Swing.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BooleanEvaluation.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Swing.groovy" afterPath="$PROJECT_DIR$/src/Swing.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -88,14 +89,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Swing.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Swing.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Swing.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8720136" vertical-offset="14" max-vertical-offset="630">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BooleanEvaluation.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BooleanEvaluation.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.61433446" vertical-offset="0" max-vertical-offset="586">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/OptionalParameters.groovy" />
         <option value="$PROJECT_DIR$/src/MultipleAssignments.groovy" />
         <option value="$PROJECT_DIR$/src/Swing.groovy" />
+        <option value="$PROJECT_DIR$/src/BooleanEvaluation.groovy" />
       </list>
     </option>
   </component>
@@ -291,18 +303,7 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
-  <component name="RunManager" selected="Groovy.Swing">
-    <configuration default="false" name="UsingProperties" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="GroovyDemos" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/UsingProperties.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
-      <setting name="debug" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Groovy.BooleanEvaluation">
     <configuration default="false" name="NamedParameters" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyDemos" />
       <setting name="path" value="file://$PROJECT_DIR$/src/NamedParameters.groovy" />
@@ -339,6 +340,17 @@
     <configuration default="false" name="Swing" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyDemos" />
       <setting name="path" value="file://$PROJECT_DIR$/src/Swing.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BooleanEvaluation" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="GroovyDemos" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/BooleanEvaluation.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -819,19 +831,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.UsingProperties" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.NamedParameters" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.OptionalParameters" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.MultipleAssignments" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.Swing" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.NamedParameters" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.OptionalParameters" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.MultipleAssignments" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.Swing" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.BooleanEvaluation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Groovy.Swing" />
-        <item index="1" class="java.lang.String" itemvalue="Groovy.MultipleAssignments" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.OptionalParameters" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.NamedParameters" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.UsingProperties" />
+        <item index="0" class="java.lang.String" itemvalue="Groovy.BooleanEvaluation" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.Swing" />
+        <item index="2" class="java.lang.String" itemvalue="Groovy.MultipleAssignments" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.OptionalParameters" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.NamedParameters" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -851,12 +863,12 @@
       <updated>1419581255375</updated>
       <workItem from="1419581258017" duration="1111000" />
       <workItem from="1419585384286" duration="918000" />
-      <workItem from="1419586398882" duration="6669000" />
+      <workItem from="1419586398882" duration="7522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8698000" />
+    <option name="totallyTimeSpent" value="9551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="985" extended-state="0" />
@@ -1195,11 +1207,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Swing.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8720136" vertical-offset="14" max-vertical-offset="630">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BooleanEvaluation.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61433446" vertical-offset="0" max-vertical-offset="586">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

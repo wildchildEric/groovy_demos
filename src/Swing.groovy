@@ -7,7 +7,7 @@ import java.awt.event.MouseMotionListener
 
 frame = new JFrame(size: [300, 300],
         layout: new FlowLayout(),
-        defaultCloseOperation: javax.swing.WindowConstants.EXIT_ON_CLOSE)
+        defaultCloseOperation: WindowConstants.EXIT_ON_CLOSE)
 button = new JButton("click")
 positionLabel = new JLabel("")
 msgLabel = new JLabel("")
