@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debaf59d-8d5d-4d55-bf93-3288e43a4c9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BooleanEvaluation.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Swing.groovy" afterPath="$PROJECT_DIR$/src/Swing.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OperatorOverloading.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -30,16 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Ease.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ease.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Car.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,11 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BooleanEvaluation.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BooleanEvaluation.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BooleanEvaluation.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61433446" vertical-offset="0" max-vertical-offset="586">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
               <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OperatorOverloading.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OperatorOverloading.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3327645" vertical-offset="0" max-vertical-offset="586">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -169,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/MultipleAssignments.groovy" />
         <option value="$PROJECT_DIR$/src/Swing.groovy" />
         <option value="$PROJECT_DIR$/src/BooleanEvaluation.groovy" />
+        <option value="$PROJECT_DIR$/src/OperatorOverloading.groovy" />
       </list>
     </option>
   </component>
@@ -274,10 +274,6 @@
               <option name="myItemId" value="production" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GroovyDemos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -303,18 +299,7 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
-  <component name="RunManager" selected="Groovy.BooleanEvaluation">
-    <configuration default="false" name="NamedParameters" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="GroovyDemos" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/NamedParameters.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
-      <setting name="debug" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Groovy.OperatorOverloading">
     <configuration default="false" name="OptionalParameters" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyDemos" />
       <setting name="path" value="file://$PROJECT_DIR$/src/OptionalParameters.groovy" />
@@ -351,6 +336,17 @@
     <configuration default="false" name="BooleanEvaluation" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyDemos" />
       <setting name="path" value="file://$PROJECT_DIR$/src/BooleanEvaluation.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="OperatorOverloading" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="GroovyDemos" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/OperatorOverloading.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src" />
@@ -831,19 +827,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.NamedParameters" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.OptionalParameters" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.MultipleAssignments" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.Swing" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.BooleanEvaluation" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.OptionalParameters" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.MultipleAssignments" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.Swing" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.BooleanEvaluation" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.OperatorOverloading" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Groovy.BooleanEvaluation" />
-        <item index="1" class="java.lang.String" itemvalue="Groovy.Swing" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.MultipleAssignments" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.OptionalParameters" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.NamedParameters" />
+        <item index="0" class="java.lang.String" itemvalue="Groovy.OperatorOverloading" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.BooleanEvaluation" />
+        <item index="2" class="java.lang.String" itemvalue="Groovy.Swing" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.MultipleAssignments" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.OptionalParameters" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -863,12 +859,12 @@
       <updated>1419581255375</updated>
       <workItem from="1419581258017" duration="1111000" />
       <workItem from="1419585384286" duration="918000" />
-      <workItem from="1419586398882" duration="7522000" />
+      <workItem from="1419586398882" duration="8036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9551000" />
+    <option name="totallyTimeSpent" value="10065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="985" extended-state="0" />
@@ -895,7 +891,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1217,8 +1213,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BooleanEvaluation.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61433446" vertical-offset="0" max-vertical-offset="586">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OperatorOverloading.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327645" vertical-offset="0" max-vertical-offset="586">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding />
         </state>
       </provider>
