@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debaf59d-8d5d-4d55-bf93-3288e43a4c9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AgileMethodologies.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ForEach.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ForEach.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GGenerics.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Generics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NotInt.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StaticImport.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UsingCoffeeSize.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VarArgs.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Annotations.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Equals.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GGenerics.groovy" afterPath="$PROJECT_DIR$/src/GGenerics.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -38,22 +31,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NotInt.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NotInt.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ForEach.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ForEach.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Annotations.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Annotations.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1094" max-vertical-offset="1680">
+              <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Equals.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Equals.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.94880545" vertical-offset="134" max-vertical-offset="780">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,21 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GGenerics.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GGenerics.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GGenerics.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17918089" vertical-offset="0" max-vertical-offset="586">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForEach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ForEach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,6 +167,8 @@
         <option value="$PROJECT_DIR$/src/StaticImport.groovy" />
         <option value="$PROJECT_DIR$/src/Generics.java" />
         <option value="$PROJECT_DIR$/src/GGenerics.groovy" />
+        <option value="$PROJECT_DIR$/src/Annotations.groovy" />
+        <option value="$PROJECT_DIR$/src/Equals.groovy" />
       </list>
     </option>
   </component>
@@ -254,7 +253,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaFXDemo.groovy" />
+              <option name="myItemId" value="OperatorOverloading.groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroovyDemos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NamedParameters.groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,30 +320,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Application.GGenerics">
-    <configuration default="false" name="AgileMethodologies" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="GroovyDemos" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/AgileMethodologies.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
-      <setting name="debug" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="VarArgs" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="GroovyDemos" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/VarArgs.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
-      <setting name="debug" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Groovy.Equals">
     <configuration default="false" name="StaticImport" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyDemos" />
       <setting name="path" value="file://$PROJECT_DIR$/src/StaticImport.groovy" />
@@ -368,6 +365,28 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="GroovyDemos" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Annotations" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="GroovyDemos" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/Annotations.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Equals" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="GroovyDemos" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/Equals.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src" />
+      <setting name="debug" value="false" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -844,19 +863,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.AgileMethodologies" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.VarArgs" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.StaticImport" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Generics" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GGenerics" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.StaticImport" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Generics" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GGenerics" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.Annotations" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.Equals" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GGenerics" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Generics" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.StaticImport" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.VarArgs" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.AgileMethodologies" />
+        <item index="0" class="java.lang.String" itemvalue="Groovy.Equals" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.Annotations" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GGenerics" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Generics" />
+        <item index="4" class="java.lang.String" itemvalue="Groovy.StaticImport" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -876,12 +895,12 @@
       <updated>1419581255375</updated>
       <workItem from="1419581258017" duration="1111000" />
       <workItem from="1419585384286" duration="918000" />
-      <workItem from="1419586398882" duration="10892000" />
+      <workItem from="1419586398882" duration="14959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12921000" />
+    <option name="totallyTimeSpent" value="16988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="985" extended-state="0" />
@@ -907,8 +926,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39404762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39404762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1023,7 +1042,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1785">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#42#79#0" expanded="true" />
+            <element signature="e#42#79#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1197,7 +1216,7 @@
         <state vertical-scroll-proportion="0.5887372" vertical-offset="0" max-vertical-offset="1785">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#42#79#0" expanded="true" />
+            <element signature="e#42#79#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1260,14 +1279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ForEach.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UsingCoffeeSize.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
@@ -1314,9 +1325,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GGenerics.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17918089" vertical-offset="0" max-vertical-offset="586">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForEach.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Annotations.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1094" max-vertical-offset="1680">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/GroovyDemos/Annotations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Equals.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94880545" vertical-offset="134" max-vertical-offset="780">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

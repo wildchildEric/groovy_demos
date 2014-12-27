@@ -9,5 +9,4 @@ public class GGenerics {
             System.out.println(element);
         }
     }
-
 }
